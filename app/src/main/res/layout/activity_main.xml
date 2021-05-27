@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:text="Activity1"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="80dp"
+        android:background="#54605E"
+        android:onClick="Myweb2"
+        android:text="FCS Portal"
+        android:textColor="#00BCD4"
+        android:textSize="17dp" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="40dp"
+        android:background="#54605E"
+        android:onClick="Myweb1"
+        android:text="Bhulekh"
+        android:textColor="#00BCD4"
+        android:textSize="17dp" />
+
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="40dp"
+        android:background="#54605E"
+        android:onClick="Myweb3"
+        android:text="Other"
+        android:textColor="#00BCD4"
+        android:textSize="17dp" />
+</LinearLayout>
